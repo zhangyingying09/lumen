@@ -25,3 +25,6 @@ $router->post('/text/decrypt3','Text\TextController@decrypt3');
 $router->post('/text/sign','Text\TextController@sign');
 
 $router->post('/text/o1','Text\TextController@o1');
+
+$router->post('/text/reg','Text\UserController@reg');
+$router->post('/text/login','Text\UserController@login');
